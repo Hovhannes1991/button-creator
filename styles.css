@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
+    padding: 150px 300px;
+}
+
+button {
+    border: none;
+    outline: none;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.btn.btn-lg {
+    padding: 25px 50px;
+    font-size: 24px;
+}
+
+.btn.btn-md {
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+.btn.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.btn.success {
+    background-color: #228d3b;
+}
+
+.btn.warning {
+    background-color: #bb5110;
+}
